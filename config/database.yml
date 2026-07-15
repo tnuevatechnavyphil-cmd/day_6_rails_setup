@@ -60,4 +60,4 @@ test:
 
 production:
   <<: *default
-  url: <%= ENV.fetch("DATABASE_PUBLIC_URL", "") %>
+  url: <%= ENV.fetch("DATABASE_URL", "") %>
